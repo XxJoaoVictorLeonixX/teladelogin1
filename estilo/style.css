@@ -52,7 +52,7 @@
     align-items: flex-start;
     justify-content: center;
 }
-.textfield . input{
+.textfield > input{
     width: 100%;
     border: none;
 }
