@@ -2,6 +2,7 @@
 *{
     margin: 0;
     box-sizing: border-box;
+    padding: 0;
 }
 .main-login{
     width: 100vw;
@@ -51,8 +52,23 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    margin: 10px 0px;
 }
 .textfield > input{
     width: 100%;
     border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #514869;
+    color: white;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+}
+.textfield > label{
+    color: white;
+    margin-bottom: 10px;
+}
+.textfield > input::placeholder{
+    color: #f0ffff94;
 }
