@@ -53,5 +53,6 @@
     justify-content: center;
 }
 .textfield . input{
-    
+    width: 100%;
+    border: none;
 }
